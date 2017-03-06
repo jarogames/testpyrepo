@@ -17,7 +17,7 @@ setup(
     license = "GPLv2",
     keywords = "example  tutorial",
     url = "http://www.seznam.cz",
-    packages=['an_example', 'tests'],
+    packages=['NuPyPhy', 'tests'],
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
