@@ -14,6 +14,7 @@ def read(fname):
 setup(
     name = "testpyrepo",
     version = "0.0.1",
+    zip_safe= False,
     author = "Carodej",
     author_email = "carodej@gmail.com",
     description = ("An demonstration of how to create, document, and publish "
