@@ -4,16 +4,21 @@ from setuptools import setup
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
-##############
+##########################################################
 #packages=[]   #  directory with __init__.py
 #modules=[]    #  single files in root dir
+#
+############ MANUALS 
 #https://pythonhosted.org/an_example_pypi_project/setuptools.html
 #
 #https://pypi.python.org/pypi?%3Aaction=list_classifiers
 #
+################# install from git repo #############
+#
+# pip install git+git://github.com/jarogames/testpyrepo@master
 setup(
     name = "testpyrepo",
-    version = "0.0.1",
+    version = "0.0.2",
     zip_safe= False,
     author = "Carodej",
     author_email = "carodej@gmail.com",
