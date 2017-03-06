@@ -11,6 +11,12 @@ Use git versioning system, upload to github. The file structure is:
 
 * MySuperPackage/__init__.py
 
+# Versioning
+
+ * git tag v0.0.1 ... lightweight tag
+
+ * put it into setup.py
+
 
 # Installation
 
